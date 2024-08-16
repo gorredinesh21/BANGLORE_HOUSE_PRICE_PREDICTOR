@@ -3,4 +3,4 @@ json
 numpy
 pandas
 pickle
-sklearn
+scikit-learn
