@@ -1,7 +1,7 @@
 import json
 import numpy as np
 import pandas as pd
-import pickle
+import joblib
 json_path="columns.json"
 
 def predict(total_sqft, bath, bhk, location_name ):
@@ -26,7 +26,6 @@ def predict(total_sqft, bath, bhk, location_name ):
     # Make the prediction
     model_path="banglore_home_prices_model.pickle"
 
-    with open(model_path, 'rb') as f:
-        model = pickle.load(f)
+    model=joblib.load(model_path)
     predicted_price = model.predict(input_df)
     return predicted_price
