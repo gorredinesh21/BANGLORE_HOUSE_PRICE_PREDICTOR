@@ -37,12 +37,14 @@ The House Price Prediction Model is a machine learning algorithm designed to est
 ## Model Evaluation
 - Evaluated model performance using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared.
 
-## Installation
-To set up the project locally, clone the repository and install the required packages:
-
 ## Usage 
 -Run the following command to execute the prediction model:
 - python app.py
+
+## Installation
+To set up the project locally, clone the repository and install the required packages:
+
+
 
 
 ```bash
